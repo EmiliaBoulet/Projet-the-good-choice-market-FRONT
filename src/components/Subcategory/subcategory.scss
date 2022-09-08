@@ -1,0 +1,65 @@
+.subcategory_container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.subcategory_title {
+  font-size: 3rem;
+  font-weight: 700;
+
+
+  margin-left: 40%;
+  padding-bottom: 3%;
+  padding-top: 0.7%;
+}
+.title__decoration {
+  border-top: 3px solid black;
+  width: 12%;
+  margin-left: 40%;
+}
+.subcategory_title-meubles {
+  font-size: 3rem;
+  font-weight: 700;
+  border-top: 3px solid black;
+  width: 215px;
+  margin-left: 40%;
+  padding-bottom: 3%;
+  padding-top: 0.7%;
+}
+.subcategory_allcard_container {
+  display: flex;
+}
+
+.subcategory_card_container {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin-left: 50px;
+}
+
+.subcategory_card_title {
+  font-weight: 700;
+  padding: 0.7rem 0;
+  font-size: 1.1rem;
+}
+
+.subcategory_card_name {
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+.subcategory_card_name:hover {
+  font-size: 1.1rem;  
+}
+.subcategory_card_price {
+  padding: 0.5rem 0;
+  font-weight: 700;
+}
+
+.subcategory_card_img {
+  width: 80%;
+}

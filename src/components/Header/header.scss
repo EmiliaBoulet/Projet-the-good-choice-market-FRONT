@@ -1,0 +1,76 @@
+.navBar {
+  width: 80%;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.header_logo {
+  height: 70px;
+}
+
+.header_icons {
+  display: flex;
+  padding-top: 0.2rem;
+  margin-top: 0.25rem;
+  height: 45px;
+}
+
+.header_icon_list {
+  display: flex;
+  list-style: none;
+}
+
+.icon {
+  width: 45px;
+  height: 35px;
+}
+
+.header_all_categories {
+  display: flex;
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  font-size: 1.2rem;
+  min-width: 1000px;
+  justify-content: space-between;
+}
+
+.header_category {
+  padding-top: 0.4rem;
+  font-weight: 700;
+  margin-right: 3rem;
+  text-transform: capitalize;
+}
+
+.header_category:hover {
+  border-top: 2px solid;
+}
+
+
+.dropdown_content {
+  display: none; 
+}
+
+.dropdown_subcategory {
+  color: black;
+  background:#FFEADB ;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-size: 0.9rem;
+}
+
+
+.category_dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.Navlink {
+width: 30%;
+}

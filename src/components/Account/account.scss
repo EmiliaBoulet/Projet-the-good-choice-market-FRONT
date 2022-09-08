@@ -1,0 +1,76 @@
+.account {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 9%;
+  align-items: center;
+}
+
+.account__title-box {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.account__title-box-titre {
+  border-top: 3px solid black;
+  font-size: 3rem;
+  padding-top: 8px;
+  width: 315px;
+}
+
+.account__profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 28%;
+  margin-bottom: 4%;
+  padding-top: 0.8%;
+  border: 2px solid #FF9A76;
+}
+.icon__orders {
+  width: 8%;
+  padding-right: 3%;
+}
+
+.icon__name {
+  width: 9%;
+  padding-right: 2%;
+}
+.account__profile-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.account__profile-description {
+  font-size: 0.8rem;
+  padding: 8px 0 8px 0;
+} 
+
+.account__link {
+  width: 27%; 
+  list-style-type: none;
+  margin-top: 3%;
+}
+
+.account__link-menu-categories {
+  padding: 0;
+}
+
+.account__link-menu-categories-a {
+  font-weight: bold;
+  padding-top: 8%;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #1c213b;
+}
+.account__link-menu-categories-a:hover {
+  color: #65938b;
+}
+

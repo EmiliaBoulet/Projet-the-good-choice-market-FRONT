@@ -1,0 +1,54 @@
+ul {
+    display: flex;
+
+}
+.superdev {
+    margin-top: 30%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+.titleSuperDevs { 
+
+    border-top: 3px solid black;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 50%;
+    width: 10%;
+}
+
+.main__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__list--perso
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    justify-content: flex-start;
+}
+.list__perso--image {
+width: 90%;
+}
+
+.list__perso--infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list__title--name:hover {
+    border-top: 3px solid black;
+    width: 45%;
+}
+h3 {
+font-size: 1rem;
+}
+#emiliaP {
+    padding: 7% 0 7% 0;
+}

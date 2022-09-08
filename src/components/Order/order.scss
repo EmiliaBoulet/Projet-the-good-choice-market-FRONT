@@ -1,0 +1,293 @@
+.order {
+margin: auto;
+
+width: 75%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+// Titre 
+
+.order_title {
+
+  font-size: 3rem;
+  width: 290px;
+  margin-bottom: 40px;
+  border-top: 3px solid;
+  padding-top: 8px;
+}
+
+// Formulaire 
+
+.order_contact {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+input {
+  border: 1.5px solid #32c53857;
+  height: 40px;
+  width: 260%;
+  font-weight: bold;  
+}
+
+
+.order_contact_title_Mode {
+  padding-top: 3%;
+  font-weight: bold;
+
+}
+
+.order_contact_lName {
+  padding-top: 1rem;
+  color:  #65938B;
+}
+
+.order_contact_adresse {
+  padding-top: 1rem;
+}
+
+.order_contact_CP {
+  padding-top: 1rem;
+}
+
+.order_contact_city {
+  padding-top: 1rem;
+}
+
+.order_contact_phone {
+  padding-top: 1rem;
+}
+
+
+// Mode de paiement 
+
+.order_paiement {
+  display: flex;
+  flex-direction: row;
+  width: 28.5%;
+  justify-content: space-between;
+}
+.icon__paiement {
+  // width: 25%;
+}
+.svg-inline--fa {
+  height: 2em;
+}
+.order_paiement_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+
+}
+
+.order_paiement_icon_BK {
+
+}
+
+.order_paiement_icon_apple {
+
+}
+
+
+.round {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkbox {
+width: 15px;
+flex-wrap: wrap;
+
+
+}
+
+
+// Recapitulatif de la commande 
+
+.order_items {
+  margin-top: 2%;
+  display: flex;
+  width: 35%;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 1.5%;
+
+}
+
+// gauche 
+.order_items_brand {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+//mileu 
+.order_items_delivery {
+display: flex;
+  flex-direction: column;
+  width: 25%;
+  
+}
+// droite 
+.order_items_price {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: flex-end;
+}
+
+
+.Gourmands {
+  padding-top: 10px;
+
+}
+.Bomeubles {
+  padding-top: 10px;
+  
+}
+.Marce_color {
+  border-top: 2px solid #65938B;
+  font-size: large;
+  font-weight: bold;
+  color: #65938B;
+  width: 130px;
+  padding-top: 5px;
+}
+
+.Bomeubles_color {
+
+  border-top: 2px solid #65938B;
+  font-size: large;
+  font-weight: bold;
+  color: #65938B;
+  width: 145px;
+  padding-top: 5px;
+}
+
+.brand_light {
+font-weight: lighter;
+color: #1C213C;
+
+font-size: small;
+}
+
+
+.order_items_price_Marce {
+  font-size: small;
+  color: #65938B;
+}
+
+.order_items_price_Bomeubles {
+  font-size: small;
+  color: #65938B;
+  padding-top: 4%;
+  
+}
+
+.order_items_price_Gourmands {
+  padding-top: 15%;
+  font-size: 0.9rem;
+}
+
+.order_contact_title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.order_items_date {
+  font-size: small;
+  color: #65938B;
+}
+
+.Gourmands_color {
+  border-top: 2px solid #FF9A76;;
+  font-size: large;
+  font-weight: bold;
+  color: #FF9A76;
+  width: 200px;
+  padding-top: 5px;
+}
+
+.order_items_delivery_Marce {
+  font-size: small;
+  color: #65938B;
+  padding-bottom: 5%;
+}
+.order_items_delivery_Bomeubles {
+  font-size: small;
+  color: #65938B;
+  padding-top: 15%;
+}
+
+// TOTAL
+
+.order_total {
+  display: flex;
+  font-weight: bold;
+  width: 26%;
+  justify-content: space-between;
+}
+
+.order_total_delivery {
+  color: #65938b;
+  font-size: small;
+}
+
+.order_total_TTC {
+  padding-top: 10px;
+}
+
+.order_price {
+  flex-direction: column;
+  font-weight: lighter;
+  color: #1C213C;
+}
+
+.price_light {
+padding-top: 4%;
+font-size: 0.9rem;
+}
+
+.order_price_TTC {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.order_price_delivery {
+  color: #65938b;
+  font-size: small;
+
+}
+
+.button {
+  margin-left: 50%;
+}
+
+.order_button {
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  background-color: #1C2938;
+  color: #FF9A76;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.order_button:hover {
+  background-color: #FF9A76;
+  color: #1C2938;
+
+  transition: 2s;
+
+}

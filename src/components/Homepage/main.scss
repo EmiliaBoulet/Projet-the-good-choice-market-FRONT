@@ -1,0 +1,122 @@
+.main_content {
+  width: 75%;
+  margin: auto;
+}
+
+h2 {
+  text-align: left;
+  padding: 2% 0 2% 0;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.main_values_title {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.introduction {
+  background-color: #FFEADB;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction_logo {
+  height: 170px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.introduction_slogan {
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 70px;
+  font-size: x-large;
+}
+
+.introduction_slogan_top {
+  border-top: 2px solid black;
+  padding-top: 8px;
+  width: 320px;
+}
+
+.brands {
+  height: 160px;
+  margin: 0 0 2% 0;
+  width: 115%;
+
+}
+.main_brands_title {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.brands_all_logo {
+  display: flex;
+}
+
+.brands_logo {
+  height: 70px;
+  padding-right: 3%;
+
+}
+
+
+.values {
+  margin: 2% 0 4% 0;
+}
+
+.values_logo {
+  height: 70px;
+  padding-right: 3%;
+}
+
+.values_all_logo {
+  display: flex;
+}
+
+.products {
+
+  height: 50%;
+  width: 90%;
+  margin: 2% 0 2% 0;  
+  height: 40%;
+  width: 115%;
+  display: flex;
+  flex-direction: column;
+}
+
+.products_card {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.products_card_brands {
+  font-weight: 900;
+  font-weight: bolder;
+  padding-top: 5%;
+  width: 78%;
+}
+
+.products_card_name {
+padding-top: 7%;
+  width: 80%;
+}
+
+.products_card_price {
+  padding: 3% 0 0 0;
+  font-weight: 900;
+  font-weight: bolder;
+
+}
+
+.products_card_image {
+  width: 50%;
+}
+.products_all_card {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-left: 3%;
+}

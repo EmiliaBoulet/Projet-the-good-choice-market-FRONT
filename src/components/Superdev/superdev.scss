@@ -1,0 +1,68 @@
+ul {
+    display: flex;
+
+}
+.superdev {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 2%; 
+}
+
+.superdev_image {
+    width: 90%;
+}
+
+.titleSuperDevs { 
+    border-top: 3px solid black;
+    text-align: center;
+    width: 280px;
+    padding-bottom: 2%;
+}
+#title__superDevs {
+    font-size: 3rem;
+}
+
+.main__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__list--perso {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    justify-content: flex-start;
+}
+
+.list__perso--image {
+width: 90%;
+
+}
+
+.list__perso--infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list__title--name:hover {
+    border-top: 3px solid black;
+    width: 115px;
+}
+.list__title--name {
+font-size: 1.2rem;
+font-weight: bolder;
+margin-top: 4%;
+padding-top: 2%;
+}
+.perso__description {
+    padding: 7% 0 7% 0;
+}
+.superdev_lead {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
